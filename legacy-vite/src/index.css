@@ -1,0 +1,101 @@
+@import 'tailwindcss';
+
+/* Enable class-based dark mode (toggled by adding `.dark` on <html>) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ------------------------------------------------------------------ */
+/*  Design tokens — exposed as Tailwind colors (text-fg, bg-subtle, …) */
+/* ------------------------------------------------------------------ */
+@theme inline {
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --color-bg: var(--bg);
+  --color-subtle: var(--subtle);
+  --color-fg: var(--fg);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+}
+
+:root {
+  --bg: #fcfcfb;
+  --subtle: #f2f2f0;
+  --fg: #18181b;
+  --body: #3f3f46;
+  --muted: #71717a;
+  --line: #e4e4e7;
+  --accent: #2f5fd0;
+}
+
+.dark {
+  --bg: #111113;
+  --subtle: #1a1a1d;
+  --fg: #f4f4f5;
+  --body: #c4c4cb;
+  --muted: #8b8b94;
+  --line: #27272a;
+  --accent: #8aa9f0;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Base                                                               */
+/* ------------------------------------------------------------------ */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem; /* offset for sticky header on anchor jumps */
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    background-color: var(--bg);
+    color: var(--body);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: var(--fg);
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--bg);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Text link with an underline that appears on hover. */
+@utility link {
+  color: var(--fg);
+  text-decoration-line: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 4px;
+  transition: text-decoration-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    text-decoration-color: currentColor;
+    color: var(--accent);
+  }
+}

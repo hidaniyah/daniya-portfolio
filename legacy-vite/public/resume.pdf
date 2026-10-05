@@ -1,0 +1,84 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /R 5 0 R /B 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3852 >>
+stream
+BT /B 26 Tf 0.10 0.12 0.20 rg 60 770 Td (Syeda Daniya Fatima) Tj ET
+BT /R 12 Tf 0.545 0.361 0.965 rg 60 748 Td (Full Stack Software Engineer) Tj ET
+BT /R 9.5 Tf 0.42 0.45 0.55 rg 60 730 Td (daniya.fatima@example.com  |  github.com/daniyafatima  |  linkedin.com/in/daniyafatima  |  Remote) Tj ET
+BT /B 12 Tf 0.024 0.714 0.831 rg 60 700 Td (SUMMARY) Tj ET
+0.85 0.85 0.88 RG 1 w 60 694 m 535 694 l S
+BT /R 10 Tf 0.42 0.45 0.55 rg 60 684 Td (Full Stack Software Engineer building scalable web applications with React, Next.js, Vue.js,) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 60 670 Td (Nuxt.js and Python. I craft intuitive user experiences backed by reliable, well-tested systems.) Tj ET
+BT /B 12 Tf 0.024 0.714 0.831 rg 60 640 Td (SKILLS) Tj ET
+0.85 0.85 0.88 RG 1 w 60 634 m 535 634 l S
+BT /B 10 Tf 0.10 0.12 0.20 rg 60 624 Td (Frontend:) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 130 624 Td (React, Next.js, Vue.js 2/3, Nuxt.js, JavaScript, HTML, CSS, Tailwind CSS) Tj ET
+BT /B 10 Tf 0.10 0.12 0.20 rg 60 608 Td (Backend:) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 130 608 Td (Python, Django, REST APIs) Tj ET
+BT /B 10 Tf 0.10 0.12 0.20 rg 60 592 Td (Tools:) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 130 592 Td (Git, GitHub, Vercel, Postman, npm, Yarn) Tj ET
+BT /B 10 Tf 0.10 0.12 0.20 rg 60 576 Td (Concepts:) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 130 576 Td (Composition API, Options API, Responsive Design, Auth, Performance) Tj ET
+BT /B 12 Tf 0.024 0.714 0.831 rg 60 546 Td (EXPERIENCE) Tj ET
+0.85 0.85 0.88 RG 1 w 60 540 m 535 540 l S
+BT /B 11 Tf 0.10 0.12 0.20 rg 60 530 Td (Full Stack Software Engineer) Tj ET
+BT /R 9.5 Tf 0.545 0.361 0.965 rg 60 516 Td (2023 - Present) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 66 500 Td (-) Tj ET
+BT /R 10 Tf 0.10 0.12 0.20 rg 80 500 Td (Built responsive web applications and reusable UI component libraries.) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 66 485 Td (-) Tj ET
+BT /R 10 Tf 0.10 0.12 0.20 rg 80 485 Td (Integrated REST APIs and implemented authentication flows.) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 66 470 Td (-) Tj ET
+BT /R 10 Tf 0.10 0.12 0.20 rg 80 470 Td (Improved application performance and Core Web Vitals.) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 66 455 Td (-) Tj ET
+BT /R 10 Tf 0.10 0.12 0.20 rg 80 455 Td (Worked across Vue 2 and Vue 3 with the Composition API.) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 66 440 Td (-) Tj ET
+BT /R 10 Tf 0.10 0.12 0.20 rg 80 440 Td (Built and shipped applications using React and Next.js.) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 66 425 Td (-) Tj ET
+BT /R 10 Tf 0.10 0.12 0.20 rg 80 425 Td (Collaborated closely with designers and backend developers.) Tj ET
+BT /B 11 Tf 0.10 0.12 0.20 rg 60 402 Td (Frontend Developer) Tj ET
+BT /R 9.5 Tf 0.545 0.361 0.965 rg 60 388 Td (2022 - 2023) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 66 372 Td (-) Tj ET
+BT /R 10 Tf 0.10 0.12 0.20 rg 80 372 Td (Migrated legacy Options API components to the Composition API.) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 66 357 Td (-) Tj ET
+BT /R 10 Tf 0.10 0.12 0.20 rg 80 357 Td (Implemented design systems with Tailwind CSS.) Tj ET
+BT /R 10 Tf 0.42 0.45 0.55 rg 66 342 Td (-) Tj ET
+BT /R 10 Tf 0.10 0.12 0.20 rg 80 342 Td (Optimized bundle size and lazy-loaded heavy routes.) Tj ET
+BT /B 12 Tf 0.024 0.714 0.831 rg 60 313 Td (SELECTED PROJECTS) Tj ET
+0.85 0.85 0.88 RG 1 w 60 307 m 535 307 l S
+BT /B 10 Tf 0.10 0.12 0.20 rg 60 297 Td (Character Management Platform) Tj ET
+BT /R 9.5 Tf 0.42 0.45 0.55 rg 60 284 Td (Vue 3, Nuxt, Python - profiles, uploads, search, tags, auth.) Tj ET
+BT /B 10 Tf 0.10 0.12 0.20 rg 60 263 Td (Dating Application) Tj ET
+BT /R 9.5 Tf 0.42 0.45 0.55 rg 60 250 Td (React, Next.js - auth, profiles, responsive design, API integration.) Tj ET
+BT /B 10 Tf 0.10 0.12 0.20 rg 60 229 Td (Vue Modernization) Tj ET
+BT /R 9.5 Tf 0.42 0.45 0.55 rg 60 216 Td (Vue 2/3 - Composition API migration maintaining legacy code.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000249 00000 n 
+0000004153 00000 n 
+0000004223 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4298
+%%EOF
