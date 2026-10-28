@@ -22,6 +22,10 @@ export const metadata: Metadata = {
   keywords: [
     'Full Stack Engineer',
     'AI Engineer',
+    'Multi Agent Systems',
+    'LangGraph',
+    'LangChain',
+    'RAG',
     'React',
     'Next.js',
     'Vue.js',

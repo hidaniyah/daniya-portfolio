@@ -1,5 +1,6 @@
 import {
   SiDjango,
+  SiLangchain,
   SiNextdotjs,
   SiNuxt,
   SiPinia,
@@ -20,6 +21,7 @@ const stack = [
   { name: 'TypeScript', icon: SiTypescript },
   { name: 'Python', icon: SiPython },
   { name: 'Django', icon: SiDjango },
+  { name: 'LangGraph', icon: SiLangchain },
 ]
 
 // Staggered page-load entrance; see `.rise` in globals.css.

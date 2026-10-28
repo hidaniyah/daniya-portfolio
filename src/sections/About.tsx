@@ -9,20 +9,20 @@ const expertise = [
   {
     icon: FiLayers,
     title: 'Full Stack Development',
-    body: 'Features owned end to end, from requirements and Python REST APIs to the interface, release and production support, including real time messaging over WebSockets.',
-    stack: ['JavaScript', 'TypeScript', 'Python', 'Django', 'REST APIs', 'WebSockets'],
+    body: 'Features owned end to end, from Python REST APIs and background jobs to the interface, release and production debugging, including real time updates over WebSockets.',
+    stack: ['Python', 'Django', 'Node.js', 'PostgreSQL', 'Celery', 'Redis', 'WebSockets', 'AWS'],
   },
   {
     icon: FiLayout,
     title: 'Frontend and Mobile',
-    body: 'Responsive interfaces in Vue and Nuxt or React and Next.js, with server side rendering for SEO and well structured state, plus mobile apps in React Native.',
-    stack: ['Vue', 'Nuxt', 'React', 'Next.js', 'React Native', 'Pinia', 'Redux'],
+    body: 'Fast interfaces in Vue and Nuxt or React and Next.js, with server side rendering, code splitting and well structured state, plus mobile apps in React Native and Ionic.',
+    stack: ['TypeScript', 'Vue', 'Nuxt', 'React', 'Next.js', 'React Native', 'Pinia'],
   },
   {
     icon: FiCpu,
     title: 'AI Engineering',
-    body: 'Agents that do real work: tool calling, runtime tool discovery and agent to agent delegation, connected to real apps through MCP, with tracing and evaluation in production.',
-    stack: ['LangGraph', 'LangChain', 'MCP', 'OpenAI', 'Anthropic', 'pgvector', 'Langfuse'],
+    body: 'Multi agent systems with tool calling, sub agents and long term memory, connected to real apps through MCP and OAuth, with human approvals, guardrails, tracing and evals.',
+    stack: ['LangGraph', 'LangChain', 'MCP', 'RAG', 'pgvector', 'Langfuse', 'OpenAI', 'Anthropic'],
   },
 ]
 
@@ -32,7 +32,7 @@ export default function About() {
     <Section
       id="about"
       title="About"
-      intro={`${years}+ years building and maintaining production web and mobile applications across the whole stack, including four years as the primary engineer on a large client platform.`}
+      intro={`${years}+ years building and maintaining production web and mobile applications across the whole stack, including three and a half years as the primary full stack engineer on a creator platform with 600K+ monthly visits.`}
       center
     >
       <Reveal>

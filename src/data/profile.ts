@@ -1,17 +1,17 @@
 // Single source of truth for personal details.
 export const profile = {
   name: 'Daniya Fatima',
-  role: 'Full Stack Software Engineer & AI Engineer',
+  role: 'Full Stack AI Engineer',
   intro:
-    'I build AI products end to end. At Lexpool, I engineer LLM agents that plan multi step tasks, discover and invoke tools at runtime, and take action in real applications through the Model Context Protocol (MCP), with every run traced and evaluated in production. Before that I spent four years as the primary full stack engineer on a large creator platform, shipping with Vue, Nuxt, React and Python.',
+    'I am an AI engineer with over four years of software engineering experience building end to end web applications with Vue.js, Nuxt.js, React and Python. At Lexpool I build a production multi agent platform, designing agent runtimes, workflow automation, tool integrations and safety controls with LangGraph, LLMs and RAG. Before that I was the primary full stack engineer for a creator platform serving 600K+ monthly visits.',
   availability: 'Open to new roles',
   location: 'Lahore, Pakistan',
-  focus: 'Full stack web apps and LLM features',
+  focus: 'Multi agent systems and full stack web apps',
   since: 2022, // first year of professional experience
   email: 'daniyafatima414@gmail.com',
   // The résumé PDF lives in /public; /resume shows it in the browser.
   // Bump `v` whenever the PDF is replaced so cached copies are refreshed.
-  resumeUrl: '/resume.pdf?v=2026-10-05',
+  resumeUrl: '/resume.pdf?v=2026-10-14',
   socials: [
     { label: 'GitHub', href: 'https://github.com/hidaniyah' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/daniya-fatima-4942491bb' },

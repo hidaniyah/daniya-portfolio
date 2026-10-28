@@ -3,7 +3,7 @@
 export const site = {
   url: 'https://daniya-portfolio.netlify.app',
   name: 'Daniya Fatima',
-  title: 'Daniya Fatima | Full Stack Software Engineer & AI Engineer',
+  title: 'Daniya Fatima | Full Stack AI Engineer',
   description:
-    'Full stack software engineer and AI engineer with 4+ years building production web and mobile applications with Vue, Nuxt, React, React Native and Python, plus LLM features with the Model Context Protocol.',
+    'Full stack AI engineer with 4+ years building production web and mobile applications with Vue, Nuxt, React and Python, now building multi agent systems with LangGraph, MCP and RAG.',
 } as const
